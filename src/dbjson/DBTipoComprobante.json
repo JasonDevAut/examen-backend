@@ -1,0 +1,115 @@
+[
+    {
+        "codigo": "01",
+        "descripcion": "RECIBO POR HONORARIOS ELECTRONICO"
+    },
+    {
+        "codigo": "03",
+        "descripcion": "FACTURA ELECTRONICA"
+    },
+    {
+        "codigo": "06",
+        "descripcion": "BOLETA ELECTRONICA"
+    },
+    {
+        "codigo": "02",
+        "descripcion": "NOTA DE CREDITO DE RHE ELECTRONICA"
+    },
+    {
+        "codigo": "11",
+        "descripcion": "NOTA DE CREDITO ELECTRONICA -BOLETA"
+    },
+    {
+        "codigo": "12",
+        "descripcion": "NOTA DE DEBITO ELECTRONICA -BOLETA"
+    },
+    {
+        "codigo": "04",
+        "descripcion": "NOTA DE CREDITO ELECTRONICA -FACTURA"
+    },
+    {
+        "codigo": "05",
+        "descripcion": "NOTA DE CREDITO ELECTRONICA -FACTURA"
+    },
+    {
+        "codigo": "07",
+        "descripcion": "GUIA DE REMISION REMITENTE -BIENES FISCALIZABLES"
+    },
+    {
+        "codigo": "08",
+        "descripcion": "GUIA DE REMISION REMITENTE COMPLEMENTARIA-BIENES"
+    },
+    {
+        "codigo": "09",
+        "descripcion": "GUIA DE REMISION TRANSPORTISTA BIENES FISCALIZABLES"
+    },
+    {
+        "codigo": "10",
+        "descripcion": "GUIA DE REMISION TRANSPORTISTA COMPLEMENTARIA-BIENES"
+    },
+    {
+        "codigo": "DA25",
+        "descripcion": "DOCUMENTOS DE ATRIBUCION"
+    },
+    {
+        "codigo": "DS56",
+        "descripcion": "COMPROBANTE DE PAGO ELECTRONICO SEAE"
+    },
+    {
+        "codigo": "TCF",
+        "descripcion": "TICKET POS"
+    },
+    {
+        "codigo": "TME12",
+        "descripcion": "TICKET ME"
+    },
+    {
+        "codigo": "TME07",
+        "descripcion": "NOTA DE CREDITO ME"
+    },
+    {
+        "codigo": "C01",
+        "descripcion": "ENVIO RESUMEN -FACTURA"
+    },
+    {
+        "codigo": "C03",
+        "descripcion": "ENVIO RESUMEN -BOLETA"
+    },
+    {
+        "codigo": "C07",
+        "descripcion": "ENVIO RESUMEN -NOTA DE CREDITO"
+    },
+    {
+        "codigo": "C08",
+        "descripcion": "ENVIO RESUMEN -NOTA DE DEBITO"
+    },
+    {
+        "codigo": "C12",
+        "descripcion": "ENVIO RESUMEN -TICKET"
+    },
+    {
+        "codigo": "40",
+        "descripcion": "COMPROBANTE DE PERCEPCION"
+    },
+    {
+        "codigo": "20",
+        "descripcion": "COMPROBANTE DE RETENCION"
+    },
+    {
+        "codigo": "23",
+        "descripcion": "POLIZA DE ADQUISICION ELECTRONICA"
+    },
+    {
+        "codigo": "30",
+        "descripcion": "DOCUMENTO DEL ADQUIRIENTE CON TARJETAS EMITIDAS POR UN TERCERO"
+    },
+    {
+        "codigo": "34",
+        "descripcion": "DOCUMENTO DEL OPERADOR"
+    },
+    {
+        "codigo": "42",
+        "descripcion": "DOCUMENTO DEL ADQUIRIENTE CON TARJETAS EMITIDAS POR ELLAS MISMAS"
+    }
+
+]
