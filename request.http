@@ -1,0 +1,66 @@
+# Base URL del servidor HTTPS definido en src/index.js
+@baseUrl = https://localhost:3000/v1/api
+@comprobanteId = REST-CLIENT-001
+
+
+### Listar tipos de comprobante
+GET {{baseUrl}}/tipocomprobantes
+Accept: application/json
+
+### Listar tipos de documento del receptor
+GET {{baseUrl}}/tipodocumentosreceptor
+Accept: application/json
+
+### Listar todos los comprobantes de pago
+GET {{baseUrl}}/comprobantespago
+Accept: application/json
+
+### Buscar comprobantes por serie
+GET {{baseUrl}}/comprobantespago?serie=F001
+Accept: application/json
+
+### Buscar comprobante por serie y numero
+GET {{baseUrl}}/comprobantespago?serie=F001&numero=00000101
+Accept: application/json
+
+### Buscar comprobantes por numero
+GET {{baseUrl}}/comprobantespago?numero=00000101
+Accept: application/json
+
+### Crear comprobante (altera DBComprobantePago.json)
+POST {{baseUrl}}/comprobantespago
+Content-Type: application/json
+Accept: application/json
+
+{
+	"id": "{{comprobanteId}}",
+	"ruc_emisor": "20123456781",
+	"tipo_comprobante": "01",
+	"tipo_documento_identidad_receptor": "6",
+	"numero_documento_identidad_receptor": "20987654321",
+	"serie_comprobante": "F009",
+	"numero_comprobante": "00000001",
+	"fecha_emision": "{{$datetime iso8601}}",
+	"importe_total": "99.90"
+}
+
+### Actualizar el comprobante creado (ejecutar despues del POST)
+PUT {{baseUrl}}/comprobantespago/{{comprobanteId}}
+Content-Type: application/json
+Accept: application/json
+
+{
+	"id": "{{comprobanteId}}",
+	"ruc_emisor": "20123456781",
+	"tipo_comprobante": "01",
+	"tipo_documento_identidad_receptor": "6",
+	"numero_documento_identidad_receptor": "20987654321",
+	"serie_comprobante": "F009",
+	"numero_comprobante": "00000001",
+	"fecha_emision": "{{$datetime iso8601}}",
+	"importe_total": "110.00"
+}
+
+### Eliminar el comprobante creado (ejecutar despues del POST)
+DELETE {{baseUrl}}/comprobantespago/{{comprobanteId}}
+Accept: application/json

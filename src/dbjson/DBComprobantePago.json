@@ -309,7 +309,6 @@
     "fecha_emision": "10-04-2026T10:10:00",
     "importe_total": "45.00"
   },
-  
   {
     "ruc_emisor": "10234567890",
     "tipo_comprobante": "01",
@@ -350,7 +349,6 @@
     "fecha_emision": "04-07-2026T12:00:00",
     "importe_total": "89.90"
   },
-  
   {
     "ruc_emisor": "20112233445",
     "tipo_comprobante": "TCF",
@@ -381,7 +379,6 @@
     "fecha_emision": "03-09-2026T07:45:00",
     "importe_total": "0.00"
   },
-  
   {
     "ruc_emisor": "10678901234",
     "tipo_comprobante": "01",
@@ -392,8 +389,6 @@
     "fecha_emision": "18-09-2026T11:00:00",
     "importe_total": "1800.00"
   },
-  
-  
   {
     "ruc_emisor": "20667788990",
     "tipo_comprobante": "03",
@@ -404,5 +399,4 @@
     "fecha_emision": "26-09-2026T22:00:00",
     "importe_total": "15400.00"
   }
-
 ]
