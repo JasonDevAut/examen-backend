@@ -1,0 +1,22 @@
+[
+    {
+        "codigo": "02",
+        "codDepartamento": "04",
+        "descripcion": "CAMANA"
+    },
+    {
+        "codigo": "04",
+        "codDepartamento": "04",
+        "descripcion": "CASTILLA"
+    },
+    {
+        "codigo": "01",
+        "codDepartamento": "12",
+        "descripcion": "HUANCAYO"
+    },
+    {
+        "codigo": "07",
+        "codDepartamento": "12",
+        "descripcion": "TARMA"
+    }
+]

@@ -1,0 +1,13 @@
+[
+    {
+        "codigo": "12345",
+        "codTipoDocumento": "01",
+        "numDocumento": "45784578",
+        "nombres": "Miguel",
+        "apePaterno": "Gabriele",
+        "apeMaterno": "Ruesta",
+        "ubigeo": "120702",
+        "correo": "mgabriele@autonoma.edu.pe",
+        "domicilio": "Panamericana Sur S/N"
+    }
+]
