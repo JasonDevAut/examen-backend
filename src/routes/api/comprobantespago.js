@@ -7,7 +7,24 @@ export const comprobantespago = express.Router();
 * route GET /v1/api/comprobantespago
 **/
 comprobantespago.get("/", (req, res) => {
-    res.json(readData());
+    const { serie, numero } = req.query;
+
+    const data = readData();
+
+    if (serie && numero) {
+        const resultado = data.filter(item => item.serie_comprobante == serie && item.numero_comprobante == numero);
+        return res.json(resultado);
+    }
+    else if (serie && !numero) {
+        const resultado = data.filter(item => item.serie_comprobante == serie);
+        return res.json(resultado);
+    }
+    else if (numero && !serie) {
+        const resultado = data.filter(item => item.numero_comprobante == numero);
+        return res.json(resultado);
+    }
+
+    res.json(data);
 });
 
 comprobantespago.post("/", (req, res) => {
