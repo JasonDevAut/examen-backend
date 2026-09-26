@@ -1,0 +1,18 @@
+[
+    {
+        "codigo": "01",
+        "descripcion": "L.E / DNI"
+    },
+    {
+        "codigo": "04",
+        "descripcion": "CARNET EXT."
+    },
+    {
+        "codigo": "06",
+        "descripcion": "RUC"
+    },
+    {
+        "codigo": "07",
+        "descripcion": "PASAPORTE"
+    }
+]
