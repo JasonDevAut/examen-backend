@@ -1,0 +1,58 @@
+[
+    {
+        "cod_docide": "-",
+        "descripcion": "SIN DOCUMENTO"
+    },
+    {
+        "cod_docide": "0",
+        "descripcion": "DOC.TRIB.NO.DOM.SIN.RUC"
+    },
+    {
+        "cod_docide": "1",
+        "descripcion": "DOC. NACIONAL DE IDENTIDAD"
+    },
+    {
+        "cod_docide": "4",
+        "descripcion": "CARNET DE EXTRANJERIA"
+    },
+    {
+        "cod_docide": "6",
+        "descripcion": "REG. UNICO DE CONTRIBUYENTES"
+    },
+    {
+        "cod_docide": "7",
+        "descripcion": "PASAPORTE"
+    },
+    {
+        "cod_docide": "A",
+        "descripcion": "CED. DIPLOMATICA DE IDENTIDAD"
+    },
+    {
+        "cod_docide": "B",
+        "descripcion": "DOC.IDENT.PAIS.RESIDENCIA-NO.D"
+    },
+    {
+        "cod_docide": "C",
+        "descripcion": "Tax Identification Number - TIN – Doc Trib PP.NN"
+    },
+    {
+        "cod_docide": "D",
+        "descripcion": "Identification Number - IN – Doc Trib PP. JJ"
+    },
+    {
+        "cod_docide": "E",
+        "descripcion": "TAM- Tarjeta Andina de Migración"
+    },
+    {
+        "cod_docide": "F",
+        "descripcion": "Permiso Temporal de Permanencia - PTP"
+    },
+    {
+        "cod_docide": "G",
+        "descripcion": "Salvoconducto"
+    },
+    {
+        "cod_docide": "H",
+        "descripcion": "Carné Permiso Temp.Perman. - CPP"
+    }
+]
